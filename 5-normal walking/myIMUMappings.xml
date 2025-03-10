@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSimDocument Version="40000">
+	<XsensDataReaderSettings>
+		<!--Name of trial (Common prefix of txt files representing trial).-->
+		<trial_prefix>20250225</trial_prefix>
+		<!--List of Experimental sensors and desired associated names in resulting tables-->
+		<ExperimentalSensors>
+			<ExperimentalSensor name="_00B4D4A8">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>hand_l_imu</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_00B4D4C5">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>hand_r_imu</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_00B4D4A6">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>radius_l_imu</name_in_model>
+			</ExperimentalSensor>
+
+			<ExperimentalSensor name="_00B4D4CF">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>radius_r_imu</name_in_model>
+			</ExperimentalSensor>
+
+ 			<ExperimentalSensor name="_00B4D4CB">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>humerus_l_imu</name_in_model>
+			</ExperimentalSensor>
+
+ 			<ExperimentalSensor name="_00B4D4CD">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>humerus_r_imu</name_in_model>
+			</ExperimentalSensor>
+
+ 			<ExperimentalSensor name="_00B4D4C2">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>femur_l_imu</name_in_model>
+			</ExperimentalSensor>
+
+ 			<ExperimentalSensor name="_00B4D4C3">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>femur_r_imu</name_in_model>
+			</ExperimentalSensor>
+
+ 			<ExperimentalSensor name="_00B4D4C6">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>tibia_l_imu</name_in_model>
+			</ExperimentalSensor>
+
+ 			<ExperimentalSensor name="_00B4D4BE">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>tibia_r_imu</name_in_model>
+			</ExperimentalSensor>
+
+ 			<ExperimentalSensor name="_00B4D4CC">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>calcn_l_imu</name_in_model>
+			</ExperimentalSensor>
+
+ 			<ExperimentalSensor name="_00B4D4A7">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+				<name_in_model>calcn_r_imu</name_in_model>
+			</ExperimentalSensor>
+            
+
+            <ExperimentalSensor name="_00B4D4C7">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+		        <name_in_model>torso_imu</name_in_model>
+			</ExperimentalSensor>
+
+            <ExperimentalSensor name="_00B4D4C4">
+				<!--The name of the PhysicalFrame representing a sensor (IMU) in Model.When loading sensor data, it will be used as a table column label.-->
+		        <name_in_model>pelvis_imu</name_in_model>
+			</ExperimentalSensor>
+
+
+		</ExperimentalSensors>
+	</XsensDataReaderSettings>
+</OpenSimDocument>
